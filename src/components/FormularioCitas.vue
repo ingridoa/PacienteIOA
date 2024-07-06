@@ -26,6 +26,7 @@
           <label for="motivo" :class="{ vacio: !paciente.motivo }">Motivo:</label>
           <textarea v-model="paciente.motivo" id="motivo" :class="{ vacio: !paciente.motivo }"></textarea>
         </div>
+        
         <button type="submit">Agregar</button>
       </form>
     </div>
@@ -62,9 +63,18 @@
   </script>
   
   <style>
+
+form {
+font-size:15px;
+padding: 18px;
+border:ridge 1px ;
+display: flex;
+gap: 12px ;
+}
   .vacio {
     color: red;
-  }
+}
+ 
   .grave {
     background-color: red;
     color: white;

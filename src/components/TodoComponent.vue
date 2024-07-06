@@ -6,8 +6,8 @@
       <p>{{ paciente.fecha }}</p>
       <h1>Hora</h1>
       <p>{{ paciente.hora }}</p>
-      <h1>Gravedad</h1>
-      <p>{{ paciente.gravedad }}</p>
+      <h1>Motivo</h1>
+      <p>{{ paciente.motivo}}</p>
       <button @click="eliminarPaciente">Eliminar</button>
     </section>
   </template>
